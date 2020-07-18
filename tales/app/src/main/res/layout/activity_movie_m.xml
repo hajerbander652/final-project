@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page"
+    tools:context=".movieM">
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/hand" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imageView14"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+
+            android:text="Hobbit "
+            android:textColor="#707070"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="184dp"
+            android:layout_height="190dp"
+            android:layout_alignTop="@id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/hobbit" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignTop="@id/imageView9"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="225dp"
+            android:textColor="#636363"
+            android:textSize="22sp"
+            android:paddingBottom="50dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://youtu.be/BXfxLIuNJvw"
+            android:layout_alignTop="@id/textView18"
+            android:textSize="22sp"
+            android:textColor="#ff2626"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الدعاية : "
+            android:paddingTop="50dp"
+            android:textColor="#707070"
+            android:textSize="29sp"
+            android:layout_alignBottom="@id/textView16"
+            android:layout_marginTop="160dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+</ScrollView>
+
+    </RelativeLayout>
